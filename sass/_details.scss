@@ -1,0 +1,38 @@
+.details{
+&__list{
+   justify-content: center;
+  display: flex;}
+  
+&__group{
+  width: 270px;
+}
+&__group:not(:last-child){
+  margin-right: 30px;
+}
+&__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-color-2);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+&__title {
+
+  margin-bottom: 5px;
+  
+  color: var(--title-text-color);
+  @include font(14px, 700, 1.14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+&__text{
+  max-width: 270px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  align-items:flex-start
+ 
+}}
